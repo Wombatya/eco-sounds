@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecosounds</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&family=Jost:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="logo">
+          <img src="svg/logo.svg" alt="bird" />
+        </div>
+        <div class="bird-names">
+          <span class="bird-name">Соловей</span>
+          <span class="bird-name">Дрозд</span>
+          <span class="bird-name">Малиновка</span>
+          <span class="bird-name">Жаворонок</span>
+          <span class="bird-name">Славка</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-wrapper">
+        <div class="main-show">
+          <audio
+            preload="metadata"
+            class="audio forest-music"
+            src="audio/forest.mp3"
+          ></audio>
+          <img class="forest-pic" src="img/forest.jpg" alt="forest" />
+        </div>
+      </div>
+      <div class="birds-pics">
+        <img class="bird-pic" src="img/solovey.jpg" alt="solovey">
+        <img class="bird-pic" src="img/drozd.jpg" alt="drozd">
+        <img class="bird-pic" src="img/zarynka.jpg" alt="zarynka">
+        <img class="bird-pic" src="img/javoronok.jpg" alt="javoronok">
+        <img class="bird-pic" src="img/slavka.jpg" alt="slavka">
+      </div>
+    </main>
+    <footer>
+        <div class="git-info">
+            <a class="link"
+              href="https://github.com/Wombatya"
+              target="_blank">
+            <img src="svg/github-logo.ico" alt="GitHub icon" class="git-pic">
+            <span class="footer-text">Wombatya</span></a>
+        </div>
+        <div class="year"><span class="footer-text">2023</span></div>
+        <div class="course-logo">
+            <a class="link"
+              href="https://rs.school/js-stage0/"
+              target="_blank">
+              <img src="svg/rss.svg" alt="course logo" class="logo-pic">
+            </a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
